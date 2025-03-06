@@ -13,4 +13,10 @@ Console.WriteLine("Enter number 2");
 int f = Convert.ToInt32(Console.ReadLine());
 int multi = e * f;
 Console.WriteLine($"The multiplication of two numbers is {multi}");
-
+ substraction
+Console.WriteLine("Enter number 1");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2 ");
+int d = Convert.ToInt32(Console.ReadLine());
+int substract = c - d;
+Console.WriteLine($"The substract of two numbers is {substract}");
