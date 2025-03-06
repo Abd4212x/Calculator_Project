@@ -1,2 +1,30 @@
 Console.WriteLine("Abdulah Mahmood");
 Console.WriteLine("24-ST-003");
+ Division
+Console.WriteLine("Enter number 1");
+int g = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2");
+int h = Convert.ToInt32(Console.ReadLine());
+int division = g / h;
+Console.WriteLine($"the division of two numbers is {division}");
+ Multiplication
+int e = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2");
+int f = Convert.ToInt32(Console.ReadLine());
+int multi = e * f;
+Console.WriteLine($"The multiplication of two numbers is {multi}");
+ substraction
+Console.WriteLine("Enter number 1");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2 ");
+int d = Convert.ToInt32(Console.ReadLine());
+int substract = c - d;
+Console.WriteLine($"The substract of two numbers is {substract}");
+ Addition
+Console.WriteLine("Enter  number 1");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2");
+int b = Convert.ToInt32(Console.ReadLine());
+int sum = a + b;
+Console.WriteLine($"The sum of two numbers is {sum}");
+
