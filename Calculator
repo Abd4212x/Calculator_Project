@@ -1,2 +1,8 @@
 Console.WriteLine("Abdulah Mahmood");
 Console.WriteLine("24-ST-003");
+Console.WriteLine("Enter number 1");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter number 2 ");
+int d = Convert.ToInt32(Console.ReadLine());
+int substract = c - d;
+Console.WriteLine($"The substract of two numbers is {substract}");
